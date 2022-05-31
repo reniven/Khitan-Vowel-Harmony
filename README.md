@@ -4,7 +4,7 @@ Vowel Harmony algorithm applied on the Khitan Small Script.
 
 ## Data
 
-The data folder contains several text files written in the Khitan Small Script. They are written in the Khitan Small Linear font where each character is written into its own separate square rather than conjoined into blocks for easier textual analysis. The text were taken from Kane 2009 book and other sources.
+The data folder contains several text files written in the Khitan Small Script. They are written in the Khitan Small Linear font where each character is written into its own separate square rather than conjoined into blocks for easier textual analysis. The text were taken from Kane 2009 book and other sources. Another version of the database can be found in [Kaggle](https://www.kaggle.com/datasets/reniven/khitan-small-script-database). 
 
 ## Input Method
 
