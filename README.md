@@ -6,6 +6,8 @@ In phonology, vowel harmony is a phonological rule in which the vowels of a give
 
 This project created an algorithm to separate the characters in the Khitan Small Script based on Peter Z. Revesz's paper.
 
+Paper was accepted into the IDEAS 2020: 24th International Database Engineering & Applications Symposium.
+
 ## Data
 
 The data folder contains several text files written in the [Khitan Small Script](https://en.wikipedia.org/wiki/Khitan_small_script). They are written in the [Khitan Small Linear](https://www.babelstone.co.uk/Fonts/KhitanLinear.html) font where each character is written into its own separate square rather than conjoined into blocks for easier textual analysis. The text were taken from Kane 2009 book and other sources. Another version of the database can be found in [Kaggle](https://www.kaggle.com/datasets/reniven/khitan-small-script-database). 
