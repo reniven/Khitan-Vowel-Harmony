@@ -33,8 +33,3 @@ The `data/` folder contains several **text files** in Khitan Small Script:
 ## Input Method
 If you wish to **type in Khitan Small Script**, check out the companion project:  
 👉 [KSS-Input](https://github.com/reniven/KSS-Input) — a custom input method developed for the script.  
-
----
-
-## Project Structure
-
