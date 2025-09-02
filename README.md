@@ -1,17 +1,40 @@
 # Khitan Vowel Harmony
 
-The Khitan small script (Chinese: 契丹小字; pinyin: qìdān xiǎozì) was one of two writing systems used for the now-extinct Khitan language. It was used during the 10th–12th century by the Khitan people, who had created the Liao Empire in present-day northeastern China. In addition to the small script, the Khitans simultaneously also used a functionally independent writing system known as the Khitan large script. For more information on the Khitan scripts, refer to Daniel Kane's "The Kitan Language and Script".
+## Overview
+The **Khitan Small Script** (契丹小字, *qìdān xiǎozì*) was one of two writing systems used for the now-extinct Khitan language during the **10th–12th centuries** under the Liao Empire in present-day northeastern China. Alongside the small script, the Khitan people also employed the **Khitan Large Script**, a functionally independent writing system.  
 
-In phonology, vowel harmony is a phonological rule in which the vowels of a given domain – typically a phonological word – must share certain distinctive features (thus "in harmony"). Vowel harmony is typically long distance, meaning that the affected vowels do not need to be immediately adjacent, and there can be intervening segments between the affected vowels. Generally, one vowel will trigger a shift in other vowels, either progressively or regressively, within the domain, such that the affected vowels match the relevant feature of the trigger vowel. Common phonological features that define the natural classes of vowels involved in vowel harmony include vowel backness, vowel height, nasalization, roundedness, and advanced and retracted tongue root.
+This project implements an **algorithm to separate characters in the Khitan Small Script** based on Peter Z. Revesz’s research, with a focus on **vowel harmony** in phonology.  
+> 📄 Accepted at *IDEAS 2020: 24th International Database Engineering & Applications Symposium*.
 
-This project created an algorithm to separate the characters in the Khitan Small Script based on Peter Z. Revesz's paper.
+---
 
-Paper was accepted into the IDEAS 2020: 24th International Database Engineering & Applications Symposium.
+## What is Vowel Harmony?
+**Vowel harmony** is a phonological rule requiring vowels within a word to share certain features, such as:
+- **Backness** (front vs. back vowels)  
+- **Height** (high vs. low vowels)  
+- **Roundedness** (lip rounding)  
+- **Nasalization**  
+- **Advanced/retracted tongue root**  
+
+In Khitan, vowel harmony is typically **long-distance**, where vowels do not need to be adjacent to influence each other. A trigger vowel spreads its feature across the word, affecting the harmony domain.
+
+For more background on Khitan scripts, see Daniel Kane’s *The Kitan Language and Script* (2009).
+
+---
 
 ## Data
+The `data/` folder contains several **text files** in Khitan Small Script:  
+- Written using the **Khitan Small Linear font**, with each character in a separate square for easier analysis.  
+- Texts were sourced from Kane (2009) and other references.  
+- Another version of the dataset is also available on [Kaggle](https://www.kaggle.com/datasets/reniven/khitan-small-script-database).  
 
-The data folder contains several text files written in the [Khitan Small Script](https://en.wikipedia.org/wiki/Khitan_small_script). They are written in the [Khitan Small Linear](https://www.babelstone.co.uk/Fonts/KhitanLinear.html) font where each character is written into its own separate square rather than conjoined into blocks for easier textual analysis. The text were taken from Kane 2009 book and other sources. Another version of the database can be found in [Kaggle](https://www.kaggle.com/datasets/reniven/khitan-small-script-database). 
+---
 
 ## Input Method
+If you wish to **type in Khitan Small Script**, check out the companion project:  
+👉 [KSS-Input](https://github.com/reniven/KSS-Input) — a custom input method developed for the script.  
 
-If you need to input the Khitan Small Script using a keyboard, go to [KSS-Input](https://github.com/reniven/KSS-Input) for a input method I developed.
+---
+
+## Project Structure
+
