@@ -4,7 +4,7 @@
 The **Khitan Small Script** (契丹小字, *qìdān xiǎozì*) was one of two writing systems used for the now-extinct Khitan language during the **10th–12th centuries** under the Liao Empire in present-day northeastern China. Alongside the small script, the Khitan people also employed the **Khitan Large Script**, a functionally independent writing system.  
 
 This project implements an **algorithm to separate characters in the Khitan Small Script** based on Peter Z. Revesz’s research, with a focus on **vowel harmony** in phonology.  
-> 📄 Accepted at *IDEAS 2020: 24th International Database Engineering & Applications Symposium*.
+> 📄 Accepted at *IDEAS 2022: 26th International Database Engineering & Applications Symposium*.
 
 ---
 
